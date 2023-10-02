@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nasa-marketplace-open-source-backend"
+version = "0.1.0"
+description = ""
+authors = ["ratchaphon1412 <ratchaphon.h111@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.5"
+djangorestframework = "^3.14.0"
+django-filter = "^23.3"
+gunicorn = "^21.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
